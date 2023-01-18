@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/vernaloqui/Farmershub.git/static/css/main.e60bc6f0.css",
+    "main.js": "/vernaloqui/Farmershub.git/static/js/main.da1fc977.js",
+    "static/media/fruitsPage.png": "/vernaloqui/Farmershub.git/static/media/fruitsPage.403018428db499b14ffa.png",
+    "static/media/bannerNew.jpg": "/vernaloqui/Farmershub.git/static/media/bannerNew.33afa3a7a4a645a1bc54.jpg",
+    "static/media/FarmersMin.jpg": "/vernaloqui/Farmershub.git/static/media/FarmersMin.e72d4b718d344930661c.jpg",
+    "static/media/pantry.png": "/vernaloqui/Farmershub.git/static/media/pantry.c1e5365d33a180e87bbe.png",
+    "static/media/Ulam.png": "/vernaloqui/Farmershub.git/static/media/Ulam.a543ec09b446a0b2d618.png",
+    "static/media/testi2.png": "/vernaloqui/Farmershub.git/static/media/testi2.5b3514363c2a4444403a.png",
+    "static/media/testi3.png": "/vernaloqui/Farmershub.git/static/media/testi3.63eb0d1f5c249538e505.png",
+    "static/media/sampalok.png": "/vernaloqui/Farmershub.git/static/media/sampalok.30f2958087babb11f3b0.png",
+    "static/media/bles.jpg": "/vernaloqui/Farmershub.git/static/media/bles.c7db89d42475137e1766.jpg",
+    "static/media/fruitBasket.jpg": "/vernaloqui/Farmershub.git/static/media/fruitBasket.df6c685017fdf99335dc.jpg",
+    "static/media/testi1.png": "/vernaloqui/Farmershub.git/static/media/testi1.26fd5894206d2a3d3dfa.png",
+    "static/media/piña.png": "/vernaloqui/Farmershub.git/static/media/piña.fbf9bbd08175940952ce.png",
+    "static/media/image1.jpg": "/vernaloqui/Farmershub.git/static/media/image1.c9192cc1a678ebc47968.jpg",
+    "static/media/sili labuyo.jpg": "/vernaloqui/Farmershub.git/static/media/sili labuyo.b0149479b9138b2fc403.jpg",
+    "static/media/logo.png": "/vernaloqui/Farmershub.git/static/media/logo.76309815cfbba6b36904.png",
+    "static/media/sibuyas.jpg": "/vernaloqui/Farmershub.git/static/media/sibuyas.fbab73824ba398c5b2c7.jpg",
+    "static/media/salad.jpg": "/vernaloqui/Farmershub.git/static/media/salad.2e342c24f54c709df2e7.jpg",
+    "static/media/saluyot.jpg": "/vernaloqui/Farmershub.git/static/media/saluyot.fa877448ab073f0027fc.jpg",
+    "static/media/man.jpg": "/vernaloqui/Farmershub.git/static/media/man.adc85ffe005847933419.jpg",
+    "index.html": "/vernaloqui/Farmershub.git/index.html",
+    "main.e60bc6f0.css.map": "/vernaloqui/Farmershub.git/static/css/main.e60bc6f0.css.map",
+    "main.da1fc977.js.map": "/vernaloqui/Farmershub.git/static/js/main.da1fc977.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e60bc6f0.css",
+    "static/js/main.da1fc977.js"
+  ]
+}
