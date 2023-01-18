@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background: linear-gradient(-120deg,white 50%, RGBA(162, 219, 183, 0.4) 50%)
 }
 
 .App-logo {
@@ -35,4 +36,263 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* Scroll to Top Button */
+#scrollUp {
+  /* display: none; Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #073418; /* Set a background color */
+  color: #A2DBB7; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#scrollUp:hover {
+  background-color: #A2DBB7; 
+  color:#073418;
+}
+/* start of Farmer's hub CSS */
+
+.text-box {
+  color:#fff;
+  position: absolute;
+  bottom: 8%;
+  margin-left: 5%;
+}
+
+.text-box h2 {
+background-image: linear-gradient(
+  -225deg,
+  #073418 0%,
+  #22C55E 29%,
+  #A2DBB7 67%,
+  #F8FEFA 100%
+);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;  
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 2s linear infinite;
+display: inline-block;
+font-size: 200px;
+}
+
+@keyframes textclip {
+to {
+  background-position: 200% center;
+}
+}
+
+.text-box h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.text-box .row {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  margin-top: 50px;
+}
+
+.text-box a {
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: 2px solid #fff;
+  align-items: center;
+}
+
+@media all and (max-width:992px){
+.text-box > h2 {
+    font-size: 75px;
+}
+.text-box > h3 {
+    font-size: 15px;
+}
+}
+@media all and (min-width:768px){
+.text-box > h2 {
+    font-size: 100px;
+}
+.text-box > h3 {
+    font-size: 30px;
+}
+}
+/* end of Farmer's hub CSS */
+
+/*Accordion*/
+/*Contact Form*/
+.form-area {
+  padding-top: 2%;
+}
+.row.single-form {
+  box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+.left {
+  background: #A2DBB7;
+  padding: 200px 98px;
+}
+.left h2 {
+  font-family: poppins;
+  color: #073418;
+  font-weight: 700;
+  font-size: 48px;
+}
+.left h2 span {
+  font-weight: 100;
+}
+.single-form{
+  background: #fff;
+}
+.right {
+  padding: 70px 100px;
+  position: relative;
+}
+.right i {
+  position: absolute;
+  font-size: 80px;
+  left: -27px;
+  top: 40%;
+  color: #fff;
+}
+.form-control {
+  border: 2px solid #000;
+}
+.right button {
+  border: none;
+  border-radius: 0;
+  background: #073418;
+  width: 180px;
+  color: #fff;
+  padding: 15px 0;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.right button:hover{
+  background-color: #252525;
+}
+/*responsive*/
+@media (min-width:768px) and (max-width:991px){
+  .right i {
+      top: -52px;
+      transform: rotate(90deg);
+      left: 50%;
+ }
+}
+@media (max-width:767px){
+  .left {
+      padding: 90px 15px;
+      text-align: center;
+ }
+  .left h2 {
+      font-size: 25px;
+ }
+  .right {
+      padding: 25px;
+ }
+  .right i {
+      top: -52px;
+      transform: rotate(90deg);
+      left: 46%;
+ }
+  .right button {
+      width: 150px;
+      padding: 12px 0;
+ }
+}
+/*Contact Form*/
+
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+  width: 100%;
+  height:200px; 
+  object-fit: cover;
+}
+.inner:hover img{
+  transform: scale(1.5);
+}
+/* Chrome, Safari, Edge, Opera
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Firefox */
+/* input[type=number] {
+-moz-appearance: textfield;
+} */ 
+/* farm produce nav links */
+.nav .nav-item .nav-link.active{
+  background-color:#F8FEFA;
+  color:#073418;
+  border: 3px solid #A2DBB7;
+}
+.nav-tabs .nav-link.active{
+  background-color:#A2DBB7;
+  color:#073418;
+  border: 3px solid #A2DBB7;
+}
+.nav-tabs .nav-link{
+  background-color: #fff;
+  color: #A2DBB7;
+  border: 3px solid #A2DBB7;
+}
+.nav-tabs .nav-link:hover{
+  border: 3px solid #073418;
+}
+.nav-tabs {
+  border-bottom: 1px solid #A2DBB7;
+  backdrop-filter: blur (1rem);
+  box-shadow:1.3rem 1.3rem 1.3rem rgba(0,0,0, 0.5);
+  border-top-color: rgba(225, 225, 225, 225, 0.5);
+  border-left-color: rgba(225, 225, 225, 225, 0.5);
+  border-bottom-color: rgba(225, 225, 225, 225, 0.5);
+  border-right-color: rgba(225, 225, 225, 225, 0.5);
+}
+.tab-content{
+  border: 1px solid #A2DBB7;
+  padding: 20px;
+  backdrop-filter: blur (1rem);
+  box-shadow:1.3rem 1.3rem 1.3rem rgba(0,0,0, 0.5);
+  border-top-color: rgba(225, 225, 225, 225, 0.5);
+  border-left-color: rgba(225, 225, 225, 225, 0.5);
+  border-bottom-color: rgba(225, 225, 225, 225, 0.5);
+  border-right-color: rgba(225, 225, 225, 225, 0.5);
+}
+.accordion-button{
+  background-color:rgba(0, 0, 0, 0.2); color:#073418;
+}
+.card{
+  width:18rem;
+  border-radius: 1rem;
+  border: 1px solid #A2DBB7;
+  backdrop-filter: blur (1rem);
+  box-shadow:1.3rem 1.3rem 1.3rem rgba(0,0,0, 0.5);
+  border-top-color: rgba(225, 225, 225, 225, 0.5);
+  border-left-color: rgba(225, 225, 225, 225, 0.5);
+  border-bottom-color: rgba(225, 225, 225, 225, 0.5);
+  border-right-color: rgba(225, 225, 225, 225, 0.5);
+
+  background-color: linear-gradient(to right bottom, rgba(225, 225,225, 0.5), rgba(225,225,225,0.3));
+}
+.card{
+  width: 18rem;
 }
